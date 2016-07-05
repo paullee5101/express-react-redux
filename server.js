@@ -19,4 +19,6 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 
 
-app.listen("8080");
+app.listen("3000", null, null, function() {
+    console.log("Node server started at PORT 3000!");
+});
